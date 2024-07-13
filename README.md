@@ -9,12 +9,12 @@ pip install -r requirements.txt
 ```
 
 ### 2.安装大语言模型框架Ollama，并下载模型llama3
-（可选其他模型https://ollama.fan/getting-started/）
 #### （1）安装 Ollama：https://ollama.com/
 #### （2）安装Ollama后，win+R打开cmd下载模型，代码如下：
 ```shell
 ollama pull llama3
 ```
+Tips：可以选其他模型（如通义千问），在官网找，https://ollama.fan/getting-started/，同样是pull 
 如果终端显示'Ollama不是内部或外部命令，也不是可运行的程序或批处理文件。',
 则添加Ollama的路径到系统环境变量Path
 
